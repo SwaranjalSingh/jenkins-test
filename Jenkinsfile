@@ -5,7 +5,11 @@
     stages{
       stage('Test'){
         steps{
-          sh 'node -version' 
+          sh 'node -v' 
+        }
+      stage('deploy'){
+        steps{
+          sh 'node --version' 
         }
       }
     }
