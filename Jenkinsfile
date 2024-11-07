@@ -7,6 +7,7 @@
         steps{
           sh 'node -v' 
         }
+      }
       stage('deploy'){
         steps{
           sh 'node --version' 
